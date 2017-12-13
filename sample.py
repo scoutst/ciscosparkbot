@@ -6,16 +6,16 @@ Sample code for using ciscosparkbot
 import os
 from ciscosparkbot import SparkBot
 
-__author__ = "imapex"
-__author_email__ = "CiscoSparkBot@imapex.io"
+__author__ = "scoutst"
+__author_email__ = "tungnx@dts.com.vn"
 __copyright__ = "Copyright (c) 2016 Cisco Systems, Inc."
 __license__ = "Apache 2.0"
 
 # Retrieve required details from environment variables
-bot_email = os.getenv("SPARK_BOT_EMAIL")
-spark_token = os.getenv("SPARK_BOT_TOKEN")
-bot_url = os.getenv("SPARK_BOT_URL")
-bot_app_name = os.getenv("SPARK_BOT_APP_NAME")
+bot_email = os.getenv("tungnx@dts.com.vn")
+spark_token = os.getenv("Njk3M2UwOWItMjJmYi00MjY3LWFhZDEtMjA5YjQyMWEzYTQ3ZjE0NWZkMzItMDdi")
+bot_url = os.getenv("scoutst.herokuapp.com")
+bot_app_name = os.getenv("HerokuBot")
 
 def do_something(incoming_msg):
     """
