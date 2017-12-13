@@ -8,7 +8,7 @@ from ciscosparkbot import SparkBot
 
 __author__ = "scoutst"
 __author_email__ = "tungnx@dts.com.vn"
-__copyright__ = "Copyright (c) 2016 Cisco Systems, Inc."
+__copyright__ = "Fork from Copyright (c) 2016 Cisco Systems, Inc."
 __license__ = "Apache 2.0"
 
 # Retrieve required details from environment variables
